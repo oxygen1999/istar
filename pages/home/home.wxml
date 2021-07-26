@@ -1,0 +1,12 @@
+<!--pages/home/home.wxml-->
+<view>
+  <view>
+    1. 微信小程序测试版本！
+  </view>
+  <view>
+    2. 项目主页地址为home
+  </view>
+  <view>
+    3. 跳转测试
+  </view>
+</view>
