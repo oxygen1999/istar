@@ -1,0 +1,22 @@
+<!--pages/istarFold/istarFold.wxml-->
+<view>
+  <!-- 下拉折叠面板 -->
+  <view class="main_line">
+    <view class="line main_line_public" bindtap="openLineContent">
+      <view class="line_left">票据类别</view>
+      <view class="line_right"> 》 </view>
+    </view>
+    <view  hidden="{{mediumNum==0}}"  class="{{isShow?'T':'F'}}"  style="z-index:999">
+      <view class="line_content main_line_public" wx:for="{{lineData}}" wx:key="index">
+        <view class="line_content_left">{{item.type}}</view>
+        <view class="line_content_right">{{item.number}}</view>
+      </view>
+    </view>
+    <view>
+      <button >我是一个按钮</button>
+    </view>
+  
+  </view>
+  
+
+</view>

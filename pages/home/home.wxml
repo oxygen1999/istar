@@ -1,12 +1,18 @@
 <!--pages/home/home.wxml-->
 <view>
-  <view>
-    1. 微信小程序测试版本！
+  <view class="explain">
+    <view>
+      1. 微信小程序测试版本！
+    </view>
+    <view>
+      2. 项目主页地址为home
+    </view>
+    <view>
+      3. 跳转测试
+    </view>
   </view>
+  <!-- 跳转 -->
   <view>
-    2. 项目主页地址为home
-  </view>
-  <view>
-    3. 跳转测试
+    <button class="btn" bindtap="jumpToFold">折叠面板</button>
   </view>
 </view>

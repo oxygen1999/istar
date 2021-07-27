@@ -1,1 +1,25 @@
 /* pages/home/home.wxss */
+body{
+  background-color: #ffffff;
+  /* padding: 50rpx; */
+}
+.explain{
+  /* width: 98%; */
+  padding:20rpx 40rpx;
+  width: 710rpx;
+  height: 160rpx;
+  border:dashed 1px rgb(88, 87, 87);
+}
+.btn{
+  width: 400rpx;
+  height: 80rpx;
+  margin-top: 20rpx;
+  font-size: 28rpx;
+  letter-spacing: 20rpx;
+  color: #ffffff;
+  border-radius: 40rpx;
+  background-color: rgb(72, 77, 77);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}

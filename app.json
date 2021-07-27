@@ -2,13 +2,13 @@
   "pages": [
     "pages/home/home",
     "pages/index/index",
-    "pages/logs/logs"
-    
+    "pages/logs/logs",
+    "pages/istarFold/istarFold"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "小程序组件测试",
     "navigationBarTextStyle": "black"
   },
   "style": "v2",
