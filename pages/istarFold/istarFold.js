@@ -6,6 +6,7 @@ Page({
    */
   data: {
     classType:'T',
+    isfull:false,
     mediumNum:0,
     isShow:false, //展开开关
     lineData:[{
@@ -34,7 +35,17 @@ Page({
     })
     _this.setData({
       isShow:!this.data.isShow,
+      isfull:!this.data.isfull,
     })
+  },
+  // 关闭面板
+  hideLine(){
+    this.openLineContent()
+  },
+  handleLine(e){
+    let i = e.target.dataset.index
+    console.log("您点击了下标值为：",i,"内容为：",this.data.lineData[i].type)
+    this.openLineContent()
   },
 
    /***************** */

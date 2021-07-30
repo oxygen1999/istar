@@ -11,7 +11,7 @@ body{
   border:dashed 1px rgb(88, 87, 87);
 }
 .btn{
-  width: 400rpx;
+  width: 710rpx !important;
   height: 80rpx;
   margin-top: 20rpx;
   font-size: 28rpx;

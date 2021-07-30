@@ -1,6 +1,6 @@
 <!--pages/home/home.wxml-->
 <view>
-  <view class="explain">
+  <!-- <view class="explain">
     <view>
       1. 微信小程序测试版本！
     </view>
@@ -10,9 +10,14 @@
     <view>
       3. 跳转测试
     </view>
-  </view>
+  </view> -->
   <!-- 跳转 -->
+  <!-- 折叠面板 -->
   <view>
     <button class="btn" bindtap="jumpToFold">折叠面板</button>
+  </view>
+  <!-- 底部固定 -->
+  <view>
+    <button class="btn" bindtap="jumpToBottom">底部固定面板</button>
   </view>
 </view>
