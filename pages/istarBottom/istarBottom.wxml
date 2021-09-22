@@ -1,0 +1,12 @@
+<!--pages/istarBottom/istarBottom.wxml-->
+<view class="main">
+  <!-- wx:for="{{100}}" -->
+  <view >
+    文本内容
+  </view>
+  <view class="bottom">
+    <view class="bottom_content">
+      <text>提交</text>
+    </view>
+  </view>
+</view>

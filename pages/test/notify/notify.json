@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "istar-notify":"/component/istar-notify/index"
+  }
+  
+}

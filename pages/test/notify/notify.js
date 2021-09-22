@@ -1,34 +1,29 @@
-// pages/home/home.js
+// pages/test/notify/notify.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    opeations:{
+      opeations: {
+        title: '公告',
+        cancel: '取消',
+        confirm: '确定',
+        showModal:true
+      }
+    }
   },
-  // ============分割线=================
-  // ***********路由跳转****************
-  // **********************************
-  // 跳转折叠面板
-  jumpToFold(){
-    wx.navigateTo({
-      url: './../istarFold/istarFold',
-    })
+  open(){
+    // this.toggle()
+    var openDialog = this.selectComponent('#istarNotify');
+    openDialog.toggle()
+    // console.log(openDialog.toggle())
   },
-  // 跳转底部固定面板
-  jumpToBottom(){
-    wx.navigateTo({
-      url: './../istarBottom/istarBottom',
-    })
+  toggle(e){
+    console.log(e)
+    console.log("打开弹窗")
   },
-  // 跳转通告面板
-  jumpToNotify(){
-    wx.navigateTo({
-      url: './../istarNotify/istarNotify',
-    })
-  },
-  // ===========分割线============
   /**
    * 生命周期函数--监听页面加载
    */

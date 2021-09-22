@@ -21,6 +21,24 @@
         {
           "name": "底部固定面板",
           "pathName": "pages/istarBottom/istarBottom",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "公告弹窗面板",
+          "pathName": "pages/istarNotify/istarNotify",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "测试",
+          "pathName": "pages/istarTest/istarTest",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "弹窗测试",
+          "pathName": "pages/test/notify/notify",
           "scene": null
         }
       ]

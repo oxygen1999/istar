@@ -20,4 +20,8 @@
   <view>
     <button class="btn" bindtap="jumpToBottom">底部固定面板</button>
   </view>
+  <!-- 公告弹窗面板 -->
+  <view>
+    <button class="btn" bindtap="jumpToNotify">公告弹窗面板</button>
+  </view>
 </view>

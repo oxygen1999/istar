@@ -1,0 +1,14 @@
+/* pages/istarTest/istarTest.wxss */
+.btn{
+  width: 710rpx !important;
+  height: 80rpx;
+  margin-top: 20rpx;
+  font-size: 28rpx;
+  letter-spacing: 20rpx;
+  color: #ffffff;
+  border-radius: 40rpx;
+  background-color: rgb(72, 77, 77);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}

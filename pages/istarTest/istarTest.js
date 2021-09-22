@@ -1,4 +1,4 @@
-// pages/home/home.js
+// pages/istarTest/istarTest.js
 Page({
 
   /**
@@ -7,28 +7,21 @@ Page({
   data: {
 
   },
-  // ============分割线=================
   // ***********路由跳转****************
   // **********************************
   // 跳转折叠面板
   jumpToFold(){
+    
     wx.navigateTo({
-      url: './../istarFold/istarFold',
+      url: './../test/fold/fold',
     })
   },
-  // 跳转底部固定面板
-  jumpToBottom(){
-    wx.navigateTo({
-      url: './../istarBottom/istarBottom',
-    })
-  },
-  // 跳转通告面板
   jumpToNotify(){
     wx.navigateTo({
-      url: './../istarNotify/istarNotify',
+      url: './../test/notify/notify',
     })
   },
-  // ===========分割线============
+  /********************************* */
   /**
    * 生命周期函数--监听页面加载
    */

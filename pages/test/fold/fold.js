@@ -1,34 +1,31 @@
-// pages/home/home.js
+// pages/test/fold/fold.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    label:'状态',
+    options:[{
+      text:'已冲红',
+      value:10
+    },{
+      text:'已打印',
+      value:10
+    },{
+      text:'已下载',
+      value:10
+    },{
+      text:'已报销',
+      value:10
+    }]
   },
-  // ============分割线=================
-  // ***********路由跳转****************
-  // **********************************
-  // 跳转折叠面板
-  jumpToFold(){
-    wx.navigateTo({
-      url: './../istarFold/istarFold',
-    })
+  toggle(e){
+    console.log(e.detail)
   },
-  // 跳转底部固定面板
-  jumpToBottom(){
-    wx.navigateTo({
-      url: './../istarBottom/istarBottom',
-    })
+  handleOptions(e){
+    console.log(e.detail)
   },
-  // 跳转通告面板
-  jumpToNotify(){
-    wx.navigateTo({
-      url: './../istarNotify/istarNotify',
-    })
-  },
-  // ===========分割线============
   /**
    * 生命周期函数--监听页面加载
    */

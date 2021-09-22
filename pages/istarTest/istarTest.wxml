@@ -1,0 +1,12 @@
+<!--pages/istarTest/istarTest.wxml-->
+<view>
+  <!-- 跳转 -->
+  <!-- 折叠面板 -->
+  <view>
+    <button class="btn" bindtap="jumpToFold">折叠面板组件</button>
+  </view>
+  <view>
+    <button class="btn" bindtap="jumpToNotify">公告弹窗组件</button>
+  </view>
+  
+</view>

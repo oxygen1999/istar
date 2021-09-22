@@ -1,0 +1,16 @@
+<!--component/istar-fold/index.wxml-->
+
+<!--pages/istarFold/istarFold.wxml-->
+<view>
+  <view class="test" bindtap="toggle" data-isShow="{{isShow}}">{{label}}></view>
+  <!-- 下拉折叠面板 -->
+  <view class="main_line" > 
+    <view  hidden="{{mediumNum==0}}"  class="{{isShow?'T':'F'}} line_box" >
+      <view class="line_content main_line_public" wx:for="{{options}}" data-index="{{index}}" bindtap="handleOptions" wx:key="index">
+        <view class="line_content_left">{{item.text}}</view>
+        <view class="line_content_right">{{item.value}}</view>
+      </view>
+    </view>
+    <view wx:if="{{isfull}}" class="full" bindtap="hideLine" catchtouchmove="ture"></view>
+  </view>
+</view>

@@ -1,0 +1,12 @@
+/* pages/istarBottom/istarBottom.wxss */
+/* css */
+.main{
+  /* height: 2000rpx; */
+}
+.bottom{
+  position: fixed;
+  height: 100rpx;
+  width: 100%;
+  background-color: #cccccc;
+  bottom: 0;
+}

@@ -1,34 +1,48 @@
-// pages/home/home.js
+// pages/istarNotify/istarNotify.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    showModal:false, //遮罩层与弹窗控制器
+    type:''
   },
-  // ============分割线=================
-  // ***********路由跳转****************
-  // **********************************
-  // 跳转折叠面板
-  jumpToFold(){
-    wx.navigateTo({
-      url: './../istarFold/istarFold',
+  // 展开弹窗
+  openDialog(){
+    let _this = this;
+    _this.setData({
+      showModal:!this.data.showModal
     })
   },
-  // 跳转底部固定面板
-  jumpToBottom(){
-    wx.navigateTo({
-      url: './../istarBottom/istarBottom',
+  // 遮罩层
+  hideModal(){
+    let _this = this;
+    _this.setData({
+      showModal:!this.data.showModal
     })
   },
-  // 跳转通告面板
-  jumpToNotify(){
-    wx.navigateTo({
-      url: './../istarNotify/istarNotify',
+  // 确定
+  onConfirm(){
+    console.log("点击了确定事件");
+    this.setData({
+      showModal:false
     })
   },
-  // ===========分割线============
+  // 取消
+  onCancel(){
+    console.log("点击了取消事件");
+    this.setData({
+      showModal:false
+    })
+  },
+  // 自定义
+  onCustomize(){
+    console.log("自定义按钮")
+    this.setData({
+      showModal:false
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

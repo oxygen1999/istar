@@ -1,0 +1,37 @@
+<!--component/istar-noyify/index.wxml-->
+<!-- 
+  * 使用type传值定义取消和确定颜色值
+  * 内容可自由插入
+  * title可自由传入
+  * 暴露取消和确定事件
+  * todo 根据传值如果只有一个按钮需要做相应适配
+ -->
+ <view>
+  <!-- 遮罩层 -->
+  <view class="istar-mask" bindtap="hideModal" catchtouchmove="preventTouchMove" wx:if="{{opeations.showModal}}"></view>
+  <!-- 弹窗 -->
+  
+  <!--  bindtap="toggle" -->
+  <view class="istar-dialog" data-showModal="{{opeations.showModal}}" wx:if="{{opeations.showModal}}">
+  
+    <view class="istar-dialog-title">{{opeations.title}}</view>
+    <view class="istar-dialog-content">
+      <slot></slot>
+    </view>
+    <view class="istar-dialog-footer" >
+      <view class="istar-dialog-cancel" bindtap="onCancel" data-status="cancel" style="background-color:{{type}}">取消</view>
+      <view class="istar-dialog-confirm" bindtap="onConfirm" data-status="confim">确定</view>
+    </view>
+    <!-- 仅有一个按钮 -->
+    <!-- <view>
+      <view class="istar-dialog-footer">
+        <view class="istar-dialog-customize" bindtap="onCustomize" data-status="cancel"
+          style="background-color:{{type}}">{{opeations.customize}}
+        </view>
+      </view>
+      <view style="height:40rpx"></view>
+    </view>  -->
+    <br />
+  </view>
+
+</view>

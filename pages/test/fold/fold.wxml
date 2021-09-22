@@ -1,0 +1,18 @@
+<!--pages/test/fold/fold.wxml-->
+<!-- 折叠面板组件测试 -->
+<!-- 
+  /**
+ * 需要传参内容：
+ * label ： 折叠面板标题 目前为居中显示
+ * options : 折叠面板展开内容  options中可传两个参数，text:文本 value：值
+ * options示例:[{text:'文本',value:10},
+ * 暴露的方法：
+ *     toggle : 可打印e.detail获取展开关闭状态
+ *     handleOptions ：事件点击函数，返回点击下标值
+ */
+  /****可按照本示例进行使用***/
+ -->
+<view>
+  <!-- 折叠面板 -->
+  <istar-fold options="{{options}}" label="{{label}}" bindhandleOptions="handleOptions" bindtoggle="toggle"></istar-fold>
+</view>

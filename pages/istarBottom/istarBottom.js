@@ -1,4 +1,4 @@
-// pages/home/home.js
+// pages/istarBottom/istarBottom.js
 Page({
 
   /**
@@ -7,28 +7,13 @@ Page({
   data: {
 
   },
-  // ============分割线=================
-  // ***********路由跳转****************
-  // **********************************
-  // 跳转折叠面板
-  jumpToFold(){
-    wx.navigateTo({
-      url: './../istarFold/istarFold',
-    })
-  },
-  // 跳转底部固定面板
-  jumpToBottom(){
-    wx.navigateTo({
-      url: './../istarBottom/istarBottom',
-    })
-  },
-  // 跳转通告面板
-  jumpToNotify(){
-    wx.navigateTo({
-      url: './../istarNotify/istarNotify',
-    })
-  },
-  // ===========分割线============
+  /**
+   * *******************
+   * ******业务代码******
+   * *******************
+   */
+
+   /***********分隔符***** */
   /**
    * 生命周期函数--监听页面加载
    */

@@ -6,7 +6,9 @@
     "pages/istarFold/istarFold",
     "pages/istarBottom/istarBottom",
     "pages/istarTest/istarTest",
-    "pages/test/fold/fold"
+    "pages/test/fold/fold",
+    "pages/istarNotify/istarNotify",
+    "pages/test/notify/notify"
   ],
   "window": {
     "backgroundTextStyle": "light",

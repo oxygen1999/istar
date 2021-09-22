@@ -1,0 +1,83 @@
+/* component/istar-noyify/index.wxss */
+/* 遮罩层 */
+.istar-mask{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  overflow: hidden;
+  opacity: 0.5;
+  z-index: 9000;
+}
+/* 弹窗 */
+.istar-dialog{
+  width: 618rpx;
+  /* height: auto; */
+  height: auto;
+  position: fixed;
+  overflow: hidden;
+  top: 20%;
+  left: 10%;
+  background-color: #ffffff;
+  border-radius: 20rpx;
+  /* padding: 20rpx; */
+  z-index: 9999;
+}
+/* 标题 */
+.istar-dialog-title{
+  padding-top: 42rpx;
+  font-size: 36rpx;
+  color: #030303;
+  text-align: center;
+}
+/* 内容 */
+.istar-dialog-content{
+  /* width: 68rpx; */
+  padding: 40rpx 40rpx 20rpx 40rpx;
+  /* height: auto; */
+  max-height: 200px;
+  overflow: auto;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  line-height: 40rpx;
+}
+/* 底部 */
+.istar-dialog-footer{
+  display: flex;
+  /* flex-direction: row; */
+  /* height: 86rpx; */
+  font-size: 34rpx;
+  line-height: 80rpx;
+  margin-top: 10px;
+  /* margin-top: 5%; */
+  justify-content: space-around;
+  /* border-top: solid 1px rgb(241, 239, 239); */
+}
+.istar-dialog-cancel{
+  width: 50%;
+  /* background-color: #F56C6C; */
+  color: #f56c6c;
+  text-align: center;
+  border-top: 1px solid rgb(247, 245, 245);
+  border-right: 1px solid rgb(247, 245, 245);
+}
+.istar-dialog-confirm{
+  text-align: center;
+  width: 50%;
+  color: #409eff;
+  border-top: 1px solid rgb(247, 245, 245);
+  /* background-color: #409eff; */
+}
+/* 自定义按钮 */
+.istar-dialog-customize{
+  text-align: center;
+  width: 50%;
+  background-color: #409eff;
+  border-radius: 10rpx;
+  /* padding-bottom: 100rpx; */
+  /* margin-bottom: 30rpx; */
+  display: inline-block;
+}

@@ -1,0 +1,37 @@
+<!--pages/istarNotify/istarNotify.wxml-->
+<!-- 
+  * 使用type传值定义取消和确定颜色值
+  * 内容可自由插入
+  * title可自由传入
+  * 暴露取消和确定事件
+  * todo 根据传值如果只有一个按钮需要做相应适配
+ -->
+<view>
+  <view>
+    <button bindtap="openDialog">点击</button>
+  </view>
+  <!-- 遮罩层 -->
+  <view class="istar-mask" bindtap="hideModal" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+  <!-- 弹窗 -->
+  <view class="istar-dialog" wx:if="{{showModal}}">
+    <view class="istar-dialog-title">公告</view>
+    <view class="istar-dialog-content">
+      等哈时间的教案课件大卡司麦当娜什么都考啥空间是就昂克时间萨卡斯基的萨满三撒是哪家啊可是沙龙的那撒扩大解释是就昂克时间几点睡啊会计师
+    </view>
+    <!-- <view class="istar-dialog-footer" >
+      <view class="istar-dialog-cancel" bindtap="onCancel" data-status="cancel" style="background-color:{{type}}">取消</view>
+      <view class="istar-dialog-confirm" bindtap="onConfirm" data-status="confim">确定</view>
+    </view> -->
+    <!-- 仅有一个按钮 -->
+    <view>
+      <view class="istar-dialog-footer">
+        <view class="istar-dialog-customize" bindtap="onCustomize" data-status="cancel"
+          style="background-color:{{type}}">朕已阅
+        </view>
+      </view>
+      <view style="height:40rpx"></view>
+    </view>
+    <br />
+  </view>
+
+</view>

@@ -1,0 +1,20 @@
+<!--pages/test/notify/notify.wxml-->
+<button bindtap="open">点击</button>
+<!-- options="{{options}}" label="{{label}}" bindtoggle="toggle" -->
+<istar-notify  id="istarNotify">
+<view >
+紧急通知，今天放假大飒飒打大厦大厦三大
+三大撒打撒打算打算打算啊
+飒飒大厦撒大苏打阿斯顿撒打算大苏打阿迪斯
+撒紧急通知，今天放假大飒飒打大厦大厦三大
+三大撒打撒打算打算打算啊
+飒飒大厦撒大苏打阿斯顿撒打算大苏打阿迪斯
+撒紧急通知，今天放假大飒飒打大厦大厦三大
+三大撒打撒打算打算打算啊
+飒飒大厦撒大苏打阿斯顿撒打算大苏打阿迪斯
+撒紧急通知，今天放假大飒飒打大厦大厦三大
+三大撒打撒打算打算打算啊
+飒飒大厦撒大苏打阿斯顿撒打算大苏打阿迪斯
+撒
+</view>
+</istar-notify>
