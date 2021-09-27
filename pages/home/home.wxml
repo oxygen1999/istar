@@ -24,4 +24,16 @@
   <view>
     <button class="btn" bindtap="jumpToNotify">公告弹窗面板</button>
   </view>
+  <!-- 进度条面板 -->
+  <view>
+    <button class="btn" bindtap="jumpToProcess">进度条面板</button>
+  </view>
+  <!-- pdf文件打开 -->
+  <view>
+    <button class="btn" bindtap="jumpToPDF">打开PDF文件</button>
+  </view>
+  <!-- 全角空格 -->
+  <view>
+    <button class="btn" bindtap="jumpMD">全角空格</button>
+  </view>
 </view>

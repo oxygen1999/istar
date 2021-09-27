@@ -8,7 +8,10 @@
     "pages/istarTest/istarTest",
     "pages/test/fold/fold",
     "pages/istarNotify/istarNotify",
-    "pages/test/notify/notify"
+    "pages/test/notify/notify",
+    "pages/istarProcess/istarProcess",
+    "pages/istarPDF/istarPDF",
+    "pages/istarMD/istarMD"
   ],
   "window": {
     "backgroundTextStyle": "light",
